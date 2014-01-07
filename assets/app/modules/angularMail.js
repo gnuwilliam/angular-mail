@@ -54,3 +54,6 @@ AngularMailServices.controller('ListController', function($scope) {
   $scope.emails = emails;
 });
 
+AngularMailServices.controller('ViewController', function($scope, $routeParams) {
+  $scope.email = emails[$routeParams.id];
+});
