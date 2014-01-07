@@ -50,6 +50,7 @@ emails = [
   }
 ];
 
-function ListController($scope) {
+AngularMailServices.controller('ListController', function($scope) {
   $scope.emails = emails;
-}
+});
+
