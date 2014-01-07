@@ -14,5 +14,8 @@
     "assets/bower/",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "~1.2.7"
+  }
 }
