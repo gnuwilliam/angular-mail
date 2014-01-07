@@ -1,0 +1,18 @@
+{
+  "name": "angular-mail",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gnuwilliam/angular-mail",
+  "authors": [
+    "William Oliveira <sudowilliam@gmail.com>"
+  ],
+  "description": "Simple email client implemented in AngularJS",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/bower/",
+    "test",
+    "tests"
+  ]
+}
