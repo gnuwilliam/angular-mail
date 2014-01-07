@@ -12,3 +12,5 @@ function routeConfig($routeProvider) {
     })
     .otherwise({ redirectTo: '/' });
 }
+
+AngularMailServices.config(routeConfig);
