@@ -1,0 +1,15 @@
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{ email.subject }}</h3>
+  </div>
+  <div class="panel-body">
+    <p><strong>From</strong> {{ email.sender }}</p>
+    <p><strong>Date</strong> {{ email.date }}</p>
+    <p><strong>To</strong> <span ng-repeat="recipient in email.recipients">{{ recipient }}</span></p>
+
+    <hr/>
+
+    <p>{{ email.message }}</p>
+  </div>
+</div>
+<a ng-href="/#/" class="btn btn-primary">Back to email list</a>
