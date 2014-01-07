@@ -5,5 +5,10 @@ function routeConfig($routeProvider) {
     .when('/', {
       controller: ListController,
       templateUrl: '/templates/list.html'
-    });
+    })
+    .when('/view/:id', {
+      controller: ViewController,
+      templateUrl: '/templates/view.html'
+    })
+    .otherwise({ redirectTo: '/' });
 }
