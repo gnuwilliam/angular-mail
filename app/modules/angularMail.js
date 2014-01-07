@@ -50,10 +50,10 @@ emails = [
   }
 ];
 
-AngularMailServices.controller('ListController', function($scope) {
+function ListController($scope) {
   $scope.emails = emails;
-});
+}
 
-AngularMailServices.controller('ViewController', function($scope, $routeParams) {
+function ViewController($scope, $routeParams) {
   $scope.email = emails[$routeParams.id];
-});
+}
