@@ -47,6 +47,6 @@ emails = [
     date: 'Jan 7, 2014 3:34',
     recipients: ['email@starwars.com'],
     message: 'hnnnhrrhhh awwgggghhh wrrhwrwwhw!'
-  },
+  }
 ]
 
