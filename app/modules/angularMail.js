@@ -37,7 +37,7 @@ emails = [
     sender: 'vader@gmail.com',
     subject: 'Father',
     date: 'Jan 7, 2014 3:34',
-    recipients: ['email@email.com'],
+    recipients: ['email@email.com', 'email2@email2.com'],
     message: 'Luke, Im your father!'
   },
   {
