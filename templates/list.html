@@ -1,0 +1,17 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Sender</th>
+      <th>Subject</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr ng-repeat="email in emails">
+      <td>{{ email.sender }}</td>
+      <td><a ng-href="/#/view/{{ email.id }}">{{ email.subject }}</a></td>
+      <td>{{ email.date }}</td>
+    </tr>
+  </tbody>
+</table>
