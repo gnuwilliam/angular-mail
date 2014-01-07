@@ -48,5 +48,8 @@ emails = [
     recipients: ['email@starwars.com'],
     message: 'hnnnhrrhhh awwgggghhh wrrhwrwwhw!'
   }
-]
+];
 
+function ListController($scope) {
+  $scope.emails = emails;
+}
