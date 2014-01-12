@@ -47,14 +47,6 @@ emails = [
     date: 'Jan 7, 2014 3:34',
     recipients: ['email@starwars.com'],
     message: 'hnnnhrrhhh awwgggghhh wrrhwrwwhw!'
-  },
-  {
-    id: 4,
-    sender: 'testing@gmail.com',
-    subject: 'Just another test!',
-    date: 'Jan 7, 2014 3:34',
-    recipients: ['test@starwars.com'],
-    message: 'Oh yeah, testing!'
   }
 ];
 
